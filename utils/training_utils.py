@@ -274,7 +274,6 @@ def generate(
 
 def evaluate(
     model, 
-    ema_model, 
     test_loader,
     tokenizers,
     criterion,
