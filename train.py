@@ -66,8 +66,7 @@ if __name__ == "__main__":
         )
         
         evaluate(
-            model, 
-            ema_model, 
+            model,
             test_loader,
             tokenizers,
             criterion,
